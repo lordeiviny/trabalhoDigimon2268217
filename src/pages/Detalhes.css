@@ -1,0 +1,24 @@
+.containerDetalhes {
+    background-color: rgb(72, 69, 235);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.buttonStyle {
+    margin: 2vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: rgb(51, 53, 52);
+    color:white;
+}
+
+.containertwoMain {
+    width: 20%;
+    margin: auto;
+    
+}
+
+.card-poke p {
+    font-size: 1.5rem;
+}

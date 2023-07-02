@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(72, 69, 235);
+    height: auto;
+    min-height: 100vh;
+}
+
+.containerButton {
+    background-color: rgb(87, 136, 97);
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonheader {
+    margin: 2vh;
+    padding: 2vh;
+    border-radius: 5px;
+    background-color: rgb(51, 53, 52);
+    color: white;
+}
+
+.containerMain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-poke {
+    background-color: white;
+    color: black;
+    height: 390px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 5px solid green;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.card-poke img {
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    
+}
+
+
+.link-name {
+    font-size: 1.1rem;
+    border: 2px solid;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
+
+.containerDigimon {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.color-style {
+    color: black;
+}
